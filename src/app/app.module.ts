@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { UserComponent } from './user/user.component';
 import { TimeAgoPipe } from './time-ago.pipe';
+import { UserDirective } from './user.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TimeAgoPipe } from './time-ago.pipe';
     HomeComponent,
     NotFoundComponent,
     UserComponent,
-    TimeAgoPipe
+    TimeAgoPipe,
+    UserDirective
   ],
   imports: [
     BrowserModule,
